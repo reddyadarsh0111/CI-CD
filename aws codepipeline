@@ -1,1 +1,14 @@
-echo "<html><body><h1>Happy RakshaBandhan Jyothi Akka</h1></body></html>" > index.html
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "A simple project for demonstration",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p build && echo '<html><body><h1>Build Complete</h1></body></html>' > build/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
